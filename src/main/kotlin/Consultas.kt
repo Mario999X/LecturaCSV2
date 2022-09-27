@@ -17,7 +17,7 @@ fun main() {
 
     println("Filtrado por ID proveedor: ")
     // Filtrado entero
-    //fileToRead.filter { it["supplierID"] == 2 }.print()
+    //df.filter { it["supplierID"] == 2 }.print()
 
     // Filtrado solo mostrando el nombre del producto
     df.filter { it["supplierID"] == 2 }["productName"].print()
